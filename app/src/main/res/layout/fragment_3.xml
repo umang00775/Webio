@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@color/darkthemebg"
+    tools:context=".Fragment3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/food"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Food Website"
+                android:padding="15dp"
+                android:layout_marginVertical="5dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/ecommerce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ecommerce website"
+                android:padding="15dp"
+                android:layout_marginVertical="5dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/fruitandveg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fruits and Vegs"
+                android:padding="15dp"
+                android:layout_marginVertical="5dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/groceryandorganic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GroceryAnd Organic"
+                android:padding="15dp"
+                android:layout_marginVertical="5dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5th"
+                android:padding="15dp"
+                android:layout_marginVertical="5dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5th"
+                android:padding="15dp"
+                android:layout_marginVertical="5dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5th"
+                android:padding="15dp"
+                android:layout_marginVertical="5dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5th"
+                android:padding="15dp"
+                android:layout_marginVertical="5dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5th"
+                android:padding="15dp"
+                android:layout_marginVertical="5dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5th"
+                android:padding="15dp"
+                android:layout_marginVertical="5dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5th"
+                android:padding="15dp"
+                android:layout_marginVertical="5dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5th"
+                android:padding="15dp"
+                android:layout_marginVertical="5dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5th"
+                android:padding="15dp"
+                android:layout_marginVertical="5dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5th"
+                android:padding="15dp"
+                android:layout_marginVertical="5dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5th"
+                android:padding="15dp"
+                android:layout_marginVertical="5dp"
+                android:background="@color/white"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</FrameLayout>

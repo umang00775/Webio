@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkthemebg"
+    tools:context=".Fragment1"
+    android:padding="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--            Offer if available      -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <!--            Greeting          -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hello,"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Umang Rathod!"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins" />
+            </LinearLayout>
+
+            <!--            Line        -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="25dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="You "
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="THINK,"
+                        android:textStyle="bold"
+                        android:textSize="29sp"
+                        android:textColor="@color/secondarycolor"
+                        android:fontFamily="@font/poppins" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="-10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="We "
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DESIGN"
+                        android:textStyle="bold"
+                        android:textSize="29sp"
+                        android:textColor="@color/primarycolor"
+                        android:fontFamily="@font/poppins" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--            Your Cart       -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="25dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your cart"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins" />
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="@drawable/border2"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Your cart is empty!"
+                            android:paddingVertical="25dp"
+                            android:textAlignment="center"
+                            android:textSize="14sp"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins" />
+
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+
+            <!--            Explore Templates       -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="25dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="false"
+                        android:text="Categories"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins" />
+                    <TextView
+                        android:id="@+id/morecategories"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:text="More"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="@color/primarycolor"
+                        android:fontFamily="@font/poppins" />
+                </RelativeLayout>
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <!--    Apparel &amp; Accessories-->
+                        <RelativeLayout
+                            android:layout_width="200dp"
+                            android:layout_height="155dp"
+                            android:background="@drawable/border3"
+                            android:padding="10dp"
+                            android:layout_marginEnd="10dp">
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:scaleType="fitXY"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="1dp"
+                                android:background="@drawable/border3"
+                                android:src="@drawable/temporary_image" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/cat1"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp"
+                                    android:paddingVertical="5dp"
+                                    android:fontFamily="@font/poppins" />
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                        <!--    Food &amp; Beverage-->
+                        <RelativeLayout
+                            android:layout_width="200dp"
+                            android:layout_height="155dp"
+                            android:background="@drawable/border3"
+                            android:padding="10dp"
+                            android:layout_marginEnd="10dp">
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:scaleType="fitXY"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="1dp"
+                                android:background="@drawable/border3"
+                                android:src="@drawable/temporary_image" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/cat2"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp"
+                                    android:paddingVertical="5dp"
+                                    android:fontFamily="@font/poppins" />
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                        <!--    Toys, Crafts &amp; Hobbies-->
+                        <RelativeLayout
+                            android:layout_width="200dp"
+                            android:layout_height="155dp"
+                            android:background="@drawable/border3"
+                            android:padding="10dp"
+                            android:layout_marginEnd="10dp">
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:scaleType="fitXY"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="1dp"
+                                android:background="@drawable/border3"
+                                android:src="@drawable/temporary_image" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/cat3"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp"
+                                    android:paddingVertical="5dp"
+                                    android:fontFamily="@font/poppins" />
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                        <!--    Electronics &amp; Computers-->
+                        <RelativeLayout
+                            android:layout_width="200dp"
+                            android:layout_height="155dp"
+                            android:background="@drawable/border3"
+                            android:padding="10dp"
+                            android:layout_marginEnd="10dp">
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:scaleType="fitXY"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="1dp"
+                                android:background="@drawable/border3"
+                                android:src="@drawable/temporary_image" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/cat4"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp"
+                                    android:paddingVertical="5dp"
+                                    android:fontFamily="@font/poppins" />
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Webio</string>
+
+    <string name="welcomeBack">WELCOME BACK DEAR</string>
+    <string name="signinocontinue">Sign in to continue</string>
+    <string name="signupocontinue">Sign up to continue</string>
+    <string name="donthaveaccount">Don\'t have any account? Create One</string>
+    <string name="alreadyhaveanacc">Already have an account? Sign in</string>
+
+
+    <!--    Categories  -->
+    <string name="cat1">Apparel &amp; Accessories</string>
+    <string name="cat2">Food &amp; Beverage</string>
+    <string name="cat3">Toys, Crafts &amp; Hobbies</string>
+    <string name="cat4">Electronics &amp; Computers</string>
+    <string name="cat5">Fruits &amp; Veg</string>
+    <string name="cat6">Jewelery</string>
+    <string name="cat7">Health &amp; Beauty</string>
+    <string name="cat8">Footwear</string>
+    <string name="cat9">Home &amp; Furniture</string>
+    <string name="cat10">Books, Music &amp; Video</string>
+    <string name="cat11">Art &amp; Photography</string>
+    <string name="cat12">Gifts &amp; Flowers</string>
+    <string name="cat13">Pet Products</string>
+    <string name="cat14">Sports, Fitness &amp; Outdoors</string>
+    <string name="cat15">Grocery &amp; Organic Foods</string>
+
+    <!-- Checkout activity -->
+    <string name="title_activity_checkout_screen">CheckoutScreen</string>
+    <string name="checkout_item_description">Description</string>
+    <string name="googlepay_status_unavailable" translatable="false">Unfortunately, Google Pay is
+        not available on this phone.
+    </string>
+    <string name="payments_show_name" translatable="false">Successfully received payment data for
+        %s!
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
